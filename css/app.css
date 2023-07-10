@@ -170,6 +170,21 @@ main .banner h2 {
   font-size: 150px;
   color: #ca2813;
   text-shadow: 1.5px 1.5px black;
+  animation: banneranimation 3s infinite;
+}
+@keyframes banneranimation {
+  0% {
+    color: #ca2813;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  50% {
+    color: #ca2813;
+    font-family: "Times New Roman", Times, serif;
+  }
+  100% {
+    color: #ca2813;
+    font-family: "Bebas Neue", sans-serif;
+  }
 }
 main .row {
   flex-wrap: wrap;
