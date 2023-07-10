@@ -346,6 +346,21 @@ main .recetas-banner h3 {
   font-size: 150px;
   color: #eef2ed;
   text-shadow: 1.5px 1.5px black;
+  animation: recipesbanneranimation 3s infinite;
+}
+@keyframes recipesbanneranimation {
+  25% {
+    color: #eef2ed;
+  }
+  50% {
+    color: black;
+  }
+  75% {
+    color: #ca2813;
+  }
+  100% {
+    color: #eef2ed;
+  }
 }
 main .recetas .row {
   flex-wrap: wrap;

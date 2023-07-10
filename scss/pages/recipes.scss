@@ -14,9 +14,25 @@ main{
         height: 100vh;
         h3{
             font-family: 'Bebas Neue', sans-serif;
-    font-size: 150px;
-    color: #eef2ed;
-    text-shadow: 1.5px 1.5px black;
+        font-size: 150px;
+        color: #eef2ed;
+        text-shadow: 1.5px 1.5px black;
+        animation: recipesbanneranimation 3s infinite;
+        }
+        @keyframes recipesbanneranimation{
+            
+            25%{
+                color: $color3;
+            }
+            50%{
+                color: $color1;
+            }
+            75%{
+                color: $color2;
+            }
+            100%{
+                color: $color3;  
+            }
         }
     }
     .recetas{
