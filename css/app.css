@@ -1,0 +1,355 @@
+@media (max-width: 576px) {
+  .banner {
+    background-position: center center;
+  }
+  .banner h2 {
+    font-size: 60px;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+  .row-donjulio {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-circle {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    padding: 1px;
+    margin: 5px;
+  }
+  .recipes {
+    margin-top: 20%;
+  }
+  .recipes .recipes-title {
+    margin-top: 20%;
+  }
+  .poke-salad .col-img {
+    order: 2;
+  }
+  .poke-salad .col-text {
+    order: 1;
+  }
+  .col-text {
+    padding: 20%;
+  }
+  .about-us {
+    background-position: center center;
+    padding: 20vh, 0vh, 20vh, 0vh;
+  }
+  .about-us h3 {
+    font-size: 3vh;
+  }
+  .square {
+    width: 100vw;
+    height: auto;
+  }
+  .square p {
+    color: black;
+    font-size: 80%;
+    padding-bottom: 6px;
+  }
+  .recetas .row {
+    display: block;
+  }
+  .recetas .row .col {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .recetas .row .col img {
+    width: 100%;
+    height: 100%;
+  }
+}
+header {
+  background-color: #ca2813;
+}
+header .navbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #ca2813;
+  height: 10vh;
+  position: fixed;
+}
+header .navbar .container-fluid {
+  background-color: #ca2813;
+}
+header .navbar .collapse {
+  justify-content: end;
+}
+header .navbar .nav-link {
+  text-decoration: none;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  align-items: center !important;
+}
+header .navbar .nav-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+header .navbar .navbar-brand {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+header .navbar h1 {
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+footer {
+  background-color: #ca2813;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+footer .container-footer {
+  display: flex;
+  justify-content: center;
+}
+footer .container-footer .icon-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  background-color: #000000;
+  border-radius: 50%;
+  color: #ca2813;
+  font-size: 24px;
+  margin: 10px;
+}
+footer .container-footer .icon-circle a {
+  text-decoration: none;
+  color: inherit;
+}
+footer .container-footer .icon-circle:hover {
+  background-color: #eef2ed;
+}
+
+body {
+  background-color: #eef2ed;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+main {
+  background-color: #eef2ed;
+}
+main .banner {
+  background-image: url("../images/books.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(100, 100, 100);
+  background-blend-mode: soft-light;
+}
+main .banner h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 150px;
+  color: #ca2813;
+  text-shadow: 1.5px 1.5px black;
+}
+main .row {
+  flex-wrap: wrap;
+  align-items: center;
+}
+main .row .col-img {
+  font-size: 30px;
+}
+main .row .col-img img {
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+main .row .col-text {
+  align-items: center;
+  justify-content: center;
+}
+main .row .view-more-btn {
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+  padding: 10px;
+  border-color: #ca2813;
+  border-radius: 26px;
+  background: #ca2813;
+  box-shadow: inset 18px 18px 36px #9c1f0f, inset -18px -18px 36px #f83117;
+}
+main .row .view-more-btn:hover {
+  color: #ca2813;
+  border-color: #000000;
+  border-radius: 26px;
+  background: #000000;
+  box-shadow: inset 18px 18px 36px #000000, inset -18px -18px 36px #000000;
+}
+main .row h4 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #ca2813;
+  font-size: 50px;
+}
+main .recipes {
+  background-color: #ca2813;
+  height: 100%;
+  padding: 10vh 0vh 15vh 0vh;
+}
+main .recipes .subtitle {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  color: black;
+  padding-bottom: 5vh;
+}
+main .recipes .container-recipes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+main .recipes .container-recipes p {
+  font-weight: bolder;
+  font-size: 18px;
+  padding-top: 20px;
+  color: black;
+}
+main .recipes .col-recipes img {
+  width: 40vh;
+  height: 40vh;
+}
+main .recipes .recipes-title {
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+  color: black;
+}
+main .recipes .recipes-btn {
+  background-color: #000000;
+  color: #ca2813;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+main .recipes .recipes-btn:hover {
+  background-color: #ca2813;
+  border-color: #000000;
+  color: #000000;
+  font-size: 15px;
+}
+main .recommendation {
+  padding: 10vh 0vh 15vh 0vh;
+}
+main .recommendation h3 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5vh;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  color: #000000;
+}
+main .recommendation .donjulio {
+  /* flex-wrap: nowrap; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .recommendation .donjulio img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+main .about-us {
+  background-image: url(../images/about-us-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(100, 100, 100);
+  background-blend-mode: soft-light;
+}
+main .about-us .square {
+  width: auto;
+  height: auto;
+  background-color: rgba(238, 242, 237, 0.7);
+  font-weight: bolder;
+}
+main .about-us .square h3 {
+  display: flex;
+  color: #ca2813;
+  padding: 3vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+}
+main .about-us .square p {
+  padding: 5vh;
+}
+
+main .recetas-banner {
+  margin: 0;
+  padding: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/aplauso.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(100, 100, 100);
+  background-blend-mode: soft-light;
+  width: 100%;
+  height: 100vh;
+}
+main .recetas-banner h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 150px;
+  color: #eef2ed;
+  text-shadow: 1.5px 1.5px black;
+}
+main .recetas .row {
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+main .recetas .row h3 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  color: #ca2813;
+  padding-top: 20px;
+}
+main .recetas .row img {
+  width: 66vh;
+  height: 66vh;
+}
+
+/*# sourceMappingURL=app.css.map */
